@@ -1,5 +1,6 @@
 {
   "homepage": "https://rbrt1022.github.io/azenoldalam/kezdolap",
+  "main": "App.js",
   "author": "Csiki Róbert",
   "name": "aboutme",
   "version": "0.1.0",
