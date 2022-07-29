@@ -5,7 +5,6 @@ import Lablec from './Lablec';
 import { BrowserRouter as Irányító, Route, Switch} from "react-router-dom";
 import Kezdolap from './Kezdolap';
 import Kapcsolat from './Kapcsolat';
-import Animacio from './Animacio';
 
 function App() {
   return (
