@@ -11,19 +11,16 @@ function App() {
   return (
     <Irányító>
       <div className="App">
-        <Animacio />
-        
         <Fejlec />
-        
         <div id='tartalom'>
           <Switch>
-            <Route exact path="azenoldalam/">
+            <Route exact path="/">
               <Kezdolap />
             </Route>
-            <Route path="azenoldalam/k">
+            <Route path="/k">
               <Torzs />
             </Route>
-            <Route path="azenoldalam/e">
+            <Route path="/e">
               <Kapcsolat />
             </Route>
           </Switch>
