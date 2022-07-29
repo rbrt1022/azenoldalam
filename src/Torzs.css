@@ -1,0 +1,52 @@
+.tkep{
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.programszoveg{
+    width: 50%;
+    margin: 10px;
+    font-size: 150%;
+}
+
+.mashatter{
+    background: rgba(75, 72, 250, 0.3)
+}
+
+h3{
+    padding: 20px;
+    font-size:xx-large;
+    position: relative;
+    transform: translate(60%,0%);
+    animation: GoBack 2000ms ease-in-out forwards;
+}
+
+@keyframes GoBack {
+    0% {transform: translate(50%,0%);}
+    /* 20% {transform: translate(40%,0%);}
+    40% {transform: translate(30%,0%);}
+    60% {transform: translate(20%,0%);}
+    80% {transform: translate(10%,0%);} */
+    100% {transform: translate(0%,0%);}
+}
+
+.vissza{
+    flex-direction: row-reverse;
+}
+
+.link{
+    color: cyan;
+}
+
+@media only screen and (max-width: 879px) {
+    .tkep{
+        width: 100%;
+        margin: 20px;
+    }
+
+    .programszoveg{
+        width: 100%;
+        margin: 20px;
+    }
+  }

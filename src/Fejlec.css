@@ -1,0 +1,41 @@
+header{
+    background-color: darkgrey;
+}
+
+#cimlapkep{
+    width: 100%;
+    max-height: 50%;
+}
+
+#nav{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#cim, #navelemek{
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menuelem{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    color: black;
+    transition: background-color 500ms ease-in-out;
+}
+
+#navelemek{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.menuelem:hover{
+    background-color: green;
+}

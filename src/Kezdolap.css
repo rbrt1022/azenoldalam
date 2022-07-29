@@ -1,0 +1,15 @@
+#kezdolap{
+    text-align: center;
+    padding: 10px;
+}
+
+.lapcim, #bevezetoszoveg{
+    margin: 20px;
+}
+
+.bevezetoszoveg{
+    font-size: 180%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgba(2, 6, 255, 0.3);
+    padding: 10px;
+}

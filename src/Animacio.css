@@ -1,0 +1,21 @@
+header, footer{
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes example {
+    0% {background: darkgrey;}
+    20%   {background: red;}
+    40%  {background: yellow;}
+    60%  {background: blue;}
+    80%  {background: rgb(0, 255, 0);}
+    100% {background: darkgrey;}
+}
+
+#keret{
+    height: 100%;
+    width: 100%;
+}

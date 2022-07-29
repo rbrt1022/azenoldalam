@@ -1,0 +1,20 @@
+.smkep{
+    height: 400px;
+    width: 400px;
+    border-radius: 110px;
+    margin: 20px;
+}
+
+#kapcsolat{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 879px) {
+    .smkep{
+        width: 200px;
+        height: 200px;
+    }
+}
