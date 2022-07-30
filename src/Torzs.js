@@ -3,7 +3,6 @@ import './Torzs.css';
 const Torzs = () => {
     return ( 
         <main id='torzs'>
-            <h2>Érdeklődési körök</h2>
             <section id="Weblapszerkesztés">
                 <h3>Weblapszerkesztés</h3>
                 <article>

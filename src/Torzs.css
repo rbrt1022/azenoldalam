@@ -19,7 +19,7 @@ h3{
     font-size:xx-large;
     position: relative;
     transform: translate(60%,0%);
-    animation: GoBack 2000ms ease-in-out forwards;
+    animation: GoBack 1500ms ease-in-out forwards;
 }
 
 @keyframes GoBack {
@@ -49,4 +49,19 @@ h3{
         width: 100%;
         margin: 20px;
     }
+  }
+
+  @media only screen and (min-width: 880px) {
+    .tkep, .programszoveg{
+        opacity: 0.2;
+        transition: opacity 1s;
+    }
+    
+    article:hover .tkep, article:hover .programszoveg{
+        opacity: 1;
+    }
+  }
+
+  #torzs{
+    padding-top: 5px;
   }
