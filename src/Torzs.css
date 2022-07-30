@@ -8,6 +8,7 @@
     width: 50%;
     margin: 10px;
     font-size: 150%;
+    cursor: default;
 }
 
 .mashatter{
@@ -20,6 +21,7 @@ h3{
     position: relative;
     transform: translate(60%,0%);
     animation: GoBack 1500ms ease-in-out forwards;
+    cursor: default;
 }
 
 @keyframes GoBack {
