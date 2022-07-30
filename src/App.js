@@ -2,7 +2,7 @@ import './App.css';
 import Fejlec from './Fejlec';
 import Torzs from './Torzs';
 import Lablec from './Lablec';
-import { BrowserRouter as Irányító, Route, Switch} from "react-router-dom";
+import { NativeRouter as Irányító, Route, Switch} from "react-router-dom";
 import Kezdolap from './Kezdolap';
 import Kapcsolat from './Kapcsolat';
 import "./Animacio.css";
