@@ -20,7 +20,7 @@ function App() {
             <Route path="/azenoldalam/k">
               <Torzs />
             </Route>
-            <Route path="azenoldalam/e">
+            <Route path="/azenoldalam/e">
               <Kapcsolat />
             </Route>
           </Switch>
