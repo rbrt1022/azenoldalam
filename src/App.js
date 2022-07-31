@@ -14,13 +14,13 @@ function App() {
         <Fejlec />
         <div id='tartalom'>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/azenoldalam/">
               <Kezdolap />
             </Route>
-            <Route path="/k">
+            <Route path="/azenoldalam/k">
               <Torzs />
             </Route>
-            <Route path="/e">
+            <Route path="azenoldalam/e">
               <Kapcsolat />
             </Route>
           </Switch>
