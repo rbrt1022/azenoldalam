@@ -9,8 +9,8 @@ const Fejlec = () => {
                 <h1 id="cim">Robi Oldala</h1>
                 <div id='navelemek'>
                     <a href="/azenoldalam/" className='menuelem'>Kezdőlapom</a>
-                    <a href="/azenoldalam/k" className='menuelem'>Érdeklődési körök</a>
-                    <a href="/azenoldalam/e" className='menuelem'>Elérhetőségek</a>
+                    <a href="/azenoldalam/#/k" className='menuelem'>Érdeklődési körök</a>
+                    <a href="/azenoldalam/#/e" className='menuelem'>Elérhetőségek</a>
                 </div>
             </nav>
         </header>
