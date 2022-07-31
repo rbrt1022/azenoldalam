@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/azenoldalam/kezdolap/static/css/main.01112272.css",
-    "main.js": "/azenoldalam/kezdolap/static/js/main.eeb8c2bf.js",
-    "static/js/787.cf53e342.chunk.js": "/azenoldalam/kezdolap/static/js/787.cf53e342.chunk.js",
-    "index.html": "/azenoldalam/kezdolap/index.html",
-    "main.01112272.css.map": "/azenoldalam/kezdolap/static/css/main.01112272.css.map",
-    "main.eeb8c2bf.js.map": "/azenoldalam/kezdolap/static/js/main.eeb8c2bf.js.map",
-    "787.cf53e342.chunk.js.map": "/azenoldalam/kezdolap/static/js/787.cf53e342.chunk.js.map"
+    "main.css": "/azenoldalam/static/css/main.01112272.css",
+    "main.js": "/azenoldalam/static/js/main.7db14b25.js",
+    "static/js/787.cf53e342.chunk.js": "/azenoldalam/static/js/787.cf53e342.chunk.js",
+    "index.html": "/azenoldalam/index.html",
+    "main.01112272.css.map": "/azenoldalam/static/css/main.01112272.css.map",
+    "main.7db14b25.js.map": "/azenoldalam/static/js/main.7db14b25.js.map",
+    "787.cf53e342.chunk.js.map": "/azenoldalam/static/js/787.cf53e342.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01112272.css",
-    "static/js/main.eeb8c2bf.js"
+    "static/js/main.7db14b25.js"
   ]
 }
