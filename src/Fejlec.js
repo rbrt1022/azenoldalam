@@ -8,9 +8,9 @@ const Fejlec = () => {
             <nav id="nav">
                 <h1 id="cim">Robi Oldala</h1>
                 <div id='navelemek'>
-                    <a href="/" className='menuelem'>Kezdőlap</a>
-                    <a href="/k" className='menuelem'>Érdeklődési körök</a>
-                    <a href="/e" className='menuelem'>Elérhetőségek</a>
+                    <a href="/azenoldalam/" className='menuelem'>Kezdőlap</a>
+                    <a href="/azenoldalam/k" className='menuelem'>Érdeklődési körök</a>
+                    <a href="/azenoldalam/e" className='menuelem'>Elérhetőségek</a>
                 </div>
             </nav>
         </header>
