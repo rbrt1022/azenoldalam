@@ -1,4 +1,5 @@
 import './Torzs.css';
+import KinizsiKep from './pictures/kinizsi.jpg';
 
 const Torzs = () => {
     return ( 
@@ -14,7 +15,7 @@ const Torzs = () => {
             <section id="Labdarúgás" className='mashatter'>
                 <h3>Labdarúgás</h3>
                 <article className='vissza'>
-                    <img className='tkep' src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/291971752_5414507758588153_6129028441345048706_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=TKL2oup8LiYAX_FI2Ud&_nc_ht=scontent-vie1-1.xx&oh=00_AT-a94MrApWlgyFAYuo5my56k4hf_EnwpyVwmSM1KOnnlw&oe=62E56B10" alt="" />
+                    <img className='tkep' src={KinizsiKep} alt="" />
                     <p className='programszoveg'>Ennek a története kicsit visszább nyúlik az időben. 2013-ban kezdtem el focizni a Sarkadi USC-nél. Pár év eltöltése után egyéb okok miatt pár évre szüneteltettem. Ennek időtartama alatt a Kálvin téren játszottam hobbiból. Voltam egy évet Méhkeréken, majd 2018-ban visszatértem a Sarkadi KLE-hez. Posztjaimat tekintve univerzális vagyok, kapuban is úgy állom helyem, mint mezőnyben. <a className='link' href='https://ada1bank.mlsz.hu/player?itemId=573573'>Ide kattintva áttekintheted a pályafutásomat.</a></p>
                 </article>
             </section>
