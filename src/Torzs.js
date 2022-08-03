@@ -8,7 +8,7 @@ const Torzs = () => {
                 <h3>Weblapszerkesztés</h3>
                 <article>
                     <img className='tkep' src="https://www.gyoremihaly.hu/wp-content/uploads/2021/08/icons8-visual-studio-code-2019-480.png" alt="" />
-                    <p className='programszoveg'>Még 2018-ban, amikor nyolcadik évfolyamba jártam, akkor eljött számomra is az idő, iskolát kellett választani a továbbtanuláshoz. Én már akkor tudtam, hogy az informatika irányába szeretnék menni. Itt helyben informatikai rendszerüzemeltető szakmára lehetett jelentkezni szakgimnáziumi rendszerben (4+1 év). <br/>
+                    <p className='programszoveg'>Még 2018-ban, amikor nyolcadik évfolyamba jártam, akkor eljött számomra is az idő, iskolát kellett választani a továbbtanuláshoz. Én már akkor tudtam, hogy az informatika irányába szeretnék menni. Itt helyben, a Gyulai SZC Ady Endre - Bay Zoltán Technikum és Szakképző iskola informatikai rendszerüzemeltető képzésére lehetett jelentkezni a régebbi szakgimnáziumi rendszerben (4+1 év). <br/>
                     Részben jól döntöttem, mert a programozás órák keretein belül a weblapszerkesztést kedveltem meg.</p>
                 </article>
             </section>
