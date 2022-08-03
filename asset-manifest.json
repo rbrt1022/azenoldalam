@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/azenoldalam/static/css/main.01112272.css",
-    "main.js": "/azenoldalam/static/js/main.74e9795e.js",
+    "main.js": "/azenoldalam/static/js/main.325f3f8e.js",
     "static/js/787.cf53e342.chunk.js": "/azenoldalam/static/js/787.cf53e342.chunk.js",
     "index.html": "/azenoldalam/index.html",
     "main.01112272.css.map": "/azenoldalam/static/css/main.01112272.css.map",
-    "main.74e9795e.js.map": "/azenoldalam/static/js/main.74e9795e.js.map",
+    "main.325f3f8e.js.map": "/azenoldalam/static/js/main.325f3f8e.js.map",
     "787.cf53e342.chunk.js.map": "/azenoldalam/static/js/787.cf53e342.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01112272.css",
-    "static/js/main.74e9795e.js"
+    "static/js/main.325f3f8e.js"
   ]
 }
