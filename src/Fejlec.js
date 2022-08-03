@@ -1,5 +1,5 @@
 import './Fejlec.css';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Fejlec = () => {
     return ( 
@@ -8,9 +8,9 @@ const Fejlec = () => {
             <nav id="nav">
                 <h1 id="cim">Robi Oldala</h1>
                 <div id='navelemek'>
-                    <a href="/azenoldalam/" className='menuelem'>Kezdőlapom</a>
-                    <a href="/azenoldalam/k" className='menuelem'>Érdeklődési körök</a>
-                    <a href="/azenoldalam/e" className='menuelem'>Elérhetőségek</a>
+                    <Link to="/" className='menuelem'>Kezdőlapom</Link>
+                    <Link to="/k" className='menuelem'>Érdeklődési körök</Link>
+                    <Link to="/e" className='menuelem'>Elérhetőségek</Link>
                 </div>
             </nav>
         </header>

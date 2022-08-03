@@ -2,18 +2,19 @@ import './App.css';
 import Fejlec from './Fejlec';
 import Torzs from './Torzs';
 import Lablec from './Lablec';
-import { BrowserRouter as Irányító, Route, Switch} from "react-router-dom";
+import { Routes, Route, Link, HashRouter, useRoutes } from "react-router-dom";
 import Kezdolap from './Kezdolap';
 import Kapcsolat from './Kapcsolat';
 import "./Animacio.css";
 
 function App() {
   return (
-    <Irányító>
+    <HashRouter basename="/">
       <div className="App">
         <Fejlec />
+        
         <div id='tartalom'>
-          <Switch>
+          {/* <Switch>
             <Route exact path="/azenoldalam/">
               <Kezdolap />
             </Route>
@@ -23,11 +24,30 @@ function App() {
             <Route path="/azenoldalam/e">
               <Kapcsolat />
             </Route>
-          </Switch>
+          </Switch> */}
+
+          <useRoutes>
+          {/* <Route path="/react-router-test/about">
+            <About />
+          </Route>
+          <Route path="/react-router-test/users">
+            <Users />
+          </Route>
+          <Route path="/react-router-test/">
+            <Home />
+          </Route> */}
+          <Routes>
+            <Route path="/" element={<Kezdolap />}/>
+            <Route path="/k" element={<Torzs />}/>
+            <Route path="/e" element={<Kapcsolat />} />
+            
+          </Routes>
+          </useRoutes>
         </div>
+        
         <Lablec />
       </div>
-    </Irányító>
+    </HashRouter>
   );
 }
 
