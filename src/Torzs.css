@@ -22,10 +22,11 @@ h3{
     transform: translate(60%,0%);
     animation: GoBack 1500ms ease-in-out forwards;
     cursor: default;
+    width: 0%;
 }
 
 @keyframes GoBack {
-    0% {transform: translate(50%,0%);}
+    0% {transform: translate(1500%,0%);}
     /* 20% {transform: translate(40%,0%);}
     40% {transform: translate(30%,0%);}
     60% {transform: translate(20%,0%);}
@@ -50,6 +51,7 @@ h3{
     .programszoveg{
         width: 100%;
         margin: 20px;
+        font-size:xx-large;
     }
   }
 
